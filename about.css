@@ -1,0 +1,189 @@
+
+body, html {
+    background: url("images/about-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(0,0,0,0.6); 
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    font-family: futura light, sans-serif;
+    font-weight: lighter;
+    position: relative;
+    height: 100vh;
+    color: #555;
+    overflow-wrap: hidden;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*.selector-for-some-widget {
+  box-sizing: content-box;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'futura light', sans-serif;
+    
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    color: #1a1a1a;
+}
+
+.navbar {
+    height: 80px;
+    background: #fff;
+    box-shadow: 4px
+}
+
+.nav-link {
+    color: #fff;
+    font-family: ;
+    font-weight: 500;
+}
+
+.navbar-custom {
+    background:#1a1a1a;
+    
+}
+
+#logo {
+    width: 100px;
+}
+
+.welcome-sec {
+  font-family: futura medium;
+  font-size: 200px; 
+  height: 100vh;
+  text-align: center;
+  padding-top: 15%;
+  color: #fff;
+}
+ 
+/* About sec*/
+.about-sec {
+    padding: 0px;
+    margin: 0px
+}
+.about-header {
+    color: #1a1a1a;
+    font-family: futura condensed bold;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 5%;
+}
+
+.about-content {
+    font-family: futura book;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding: 8px;
+    
+}
+
+#contact-link:active, #contact-link:visited {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+#contact-link:hover {
+    border-bottom: 2px dotted #1a1a1a;
+}
+/*Skills Sec*/
+#skills-sec {
+    color: #fff;
+    background: url("images/bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(0,0,0,0.6); 
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    padding: 8px;
+    color: #fff;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.skills-header {
+    color: #fff;
+    font-family: futura condensed bold;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 5%;
+}
+
+.skills-h2 {
+    font-size: ;
+    font-family: futura condensed light;
+    padding-bottom: 30px;
+}
+
+#skills-img {
+    padding-bottom: 15px;
+}
+
+#progress-bar {
+    background: #2196f3;
+    padding: ;
+}
+
+/* Footer */
+.footer {
+    background: #1a1a1a;
+    color: #2196f3;
+    padding: 30px;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    margin: 0px;
+    height: auto;
+    margin-top:;
+    font-family: futura medium;
+}
+
+#copy {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.icon {
+    color: #2196f3;
+    padding: 4px;
+    padding-left: 30px;
+
+
+}
+
+.footer-header {
+    text-transform: uppercase;
+    font-family: futura condensed light;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    color: #666;
+}
+
+@media (max-width: 450px) {
+    .footer-header {
+        margin-bottom: 2%
+    }
+}
+
+
+.link:link, .link:visited, #link:link, #link:visited {
+    color: #666;
+}
+
+.link:hover, .link:active, #link:hover, #link:active  {
+    color: #f0f0f0;
+    text-decoration: none;
+}
