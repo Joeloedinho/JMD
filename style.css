@@ -1,11 +1,6 @@
 
 body, html {
-    background: url("images/bg.png");
-    background-position: center center;
-    background-size: cover;
-    background-color: rgb(0,0,0,0.6); 
-    background-blend-mode: multiply;
-    background-attachment: ;
+    background: #f0f0f0;
     font-family: futura light, sans-serif;
     font-weight: lighter;
     position: relative;
@@ -51,14 +46,40 @@ body, html {
 
 
 /************************/
-.welcome-sec {
-  font-family: futura medium;
-  font-size: 50px; 
-  height:  100vh;
-  text-align: center;
-  padding-top: 25%;
-  color: #fff;
+.container-header {
+  display: table;
+  height: 100VH;
+  width: 100%;
+  background: url("images/bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-color: rgb(0,0,0,0.3); 
+  background-blend-mode: multiply;
+    
 }
+
+.content-header {
+  font-family: futura medium;
+  font-size: 40px;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media only screen and (max-device-width: 480px) {
+      .welcome-sec {
+        font-size: 10vw;
+        padding-top: 50%;
+      }
+    }
+
+@media only screen and (max-device-width: 240px) {
+      .welcome-sec {
+        font-size: 10vw;
+        padding-top: 50%;
+      }
+    }
 
 #image-circle {
     text-align: center;
